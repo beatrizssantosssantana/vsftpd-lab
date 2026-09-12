@@ -359,35 +359,6 @@ Validação em duas frentes:
  
 Esse teste demonstrou que é possível mitigar o vetor de exploração de forma cirúrgica — bloqueando a porta específica usada pelo backdoor — sem interromper o serviço legítimo que outros usuários dependem.
 
-
-
-
-
-
-
-
-
----
-
-## Principais aprendizados
-
-Com esse laboratório, consegui praticar e entender melhor:
-
-- configuração de máquinas virtuais no VirtualBox;
-- redes Host-Only;
-- identificação de endereços IP em Linux;
-- reconhecimento e enumeração com Nmap;
-- diferença entre encontrar uma porta e identificar a versão do serviço;
-- importância de pesquisar vulnerabilidades a partir das informações encontradas;
-- fluxo básico do Metasploit: `search` → `use` → `show options` → `set` → `run`;
-- conceitos de `RHOSTS` e `LHOST`;
-- gerenciamento de sessões;
-- reconhecimento básico após obtenção de acesso;
-- funcionamento do protocolo FTP;
-- transferência de arquivos;
-- impacto de serviços vulneráveis sobre a segurança de um sistema;
-- importância de atualização, segmentação e redução da superfície de ataque.
-
 ---
 
 ## Conclusão
@@ -397,20 +368,3 @@ O principal aprendizado deste laboratório foi entender que a exploração é ap
 O que mais agregou ao estudo foi acompanhar o caminho completo: primeiro descobrir o que estava disponível no alvo, identificar a versão de um serviço, pesquisar uma vulnerabilidade relacionada e somente depois realizar a exploração em ambiente controlado.
 
 Isso ajudou a conectar conhecimentos que eu vinha estudando separadamente, como **redes, Nmap, Linux, FTP, vulnerabilidades e Metasploit**, dentro de um único laboratório prático.
-
----
-
-## ⚠️ Aviso de uso
-
-Este projeto foi desenvolvido **exclusivamente para estudo de Cybersecurity**.
-
-Todos os testes foram realizados em:
-
-- máquinas virtuais próprias;
-- rede local isolada;
-- ambiente controlado;
-- Metasploitable 2, criada propositalmente para testes de segurança.
-
-Nenhum sistema real, infraestrutura de terceiros ou dispositivo sem autorização foi utilizado.
-
-Testes de segurança devem ser realizados somente em ambientes próprios ou mediante autorização explícita.
